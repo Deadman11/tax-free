@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+* ::-webkit-scrollbar {
+  width: 0;
+}
+
+.container {
+  width: 1250px;
+  margin: auto;
+}
+
+.header-wrapper {
+  width: 1900px;
+  height: 75px;
+  display: flex;
+}
+.header-wrapper__logo {
+  font-family: "gothampro_medium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 27px 0 0 0;
+}
+.header-wrapper__list .nav-menu {
+  display: flex;
+}
+.header-wrapper__list .nav-menu a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #45546C;
+  line-height: 0px;
+}
+.header-wrapper__list .nav-menu a .classLi {
+  padding: 36px 0 0 0;
+}
+.header-wrapper__list .nav-menu a .firstLi {
+  padding-left: 91px;
+}
+.header-wrapper__list .nav-menu a .secondLi {
+  padding-left: 36px;
+}
+.header-wrapper__list .nav-menu a .thirdLi {
+  padding-left: 33px;
+}
+.header-wrapper__list .nav-menu a .fifthLi {
+  padding-left: 32px;
+}
+.header-wrapper__list .nav-menu a .sixLi {
+  padding-left: 33px;
+}
+.header-wrapper__lang {
+  width: 83px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  margin: 14px 0 0 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header-wrapper__lang_logo {
+  padding: 3px 5px 0 18px;
+}
+.header-wrapper__lang_text {
+  padding: 2px 0 0 0;
+  color: #2D2D2D;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.header-wrapper__button .btn {
+  cursor: pointer;
+  padding: 15px 36px 14px 41px;
+  background: #FECD33;
+  border-radius: 0px 50px 50px 55px;
+  margin: 14px 0 0 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  border: none;
+}
+
+@font-face {
+  font-family: gothampro_medium;
+  src: url(../fonts/gothampro/gothampro_medium.ttf);
+}
+@font-face {
+  font-family: gothampro_bold;
+  src: url(./fonts/gothampro/gothampro_black.ttf);
+}
+.shoping {
+  border-top: 1px solid #787878;
+}
+.shoping-bg {
+  position: absolute;
+  z-index: -99999;
+}
+.shoping-bg-layout {
+  position: absolute;
+  z-index: -999;
+}
+.shoping-wrapper {
+  height: 750px;
+}
+.shoping-wrapper__title {
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 234px;
+  padding-left: 315px;
+}
+.shoping-wrapper__title h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 70px;
+}
+.shoping-wrapper__subtitle {
+  color: #ffffff;
+  padding-top: 25px;
+  padding-left: 366px;
+}
+.shoping-wrapper__subtitle h4 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+}
+.shoping-wrapper__button {
+  padding: 37px 0 0 524px;
+}
+.shoping-wrapper__button button {
+  width: 204px;
+  height: 50px;
+  cursor: pointer;
+  background: #FECD33;
+  border-radius: 0px 30px 30px 35px;
+  border: none;
+}
+.shoping-wrapper__button .buy-tax-free p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.shoping-wrapper__txt p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 0 0 0;
+}/*# sourceMappingURL=style.css.map */
